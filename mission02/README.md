@@ -1,8 +1,5 @@
-# React + Vite
+# React 2주차 과제
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [피그마링크](https://www.figma.com/file/CDSQtjO7hygL08Le5heTYD/%EC%95%84%ED%86%A0%EB%AF%B9-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8?type=design&node-id=0%3A1&mode=dev)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![피그마](이미지경로)
