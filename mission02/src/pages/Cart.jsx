@@ -1,8 +1,7 @@
-function Cart({ headline, colorClassName, children }) {
+function Cart({ headline }) {
   return (
-    <section className={`h-screen ${colorClassName} p-5`}>
+    <section className="h-screen bg-indigo-100 p-5">
       <h2>{headline}</h2>
-      {children}
     </section>
   )
 }

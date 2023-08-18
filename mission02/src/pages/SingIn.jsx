@@ -22,7 +22,7 @@ function SignIn() {
           아이디 저장
         </label>
       </form>
-      <ButtonClick label="로그인" layout="fill" size="w-[280px] h-[44px]">
+      <ButtonClick label="로그인" size="w-[280px] h-[44px]">
         클릭
       </ButtonClick>
       <form className="flex text-sm mt-5">

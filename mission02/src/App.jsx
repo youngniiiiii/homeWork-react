@@ -1,5 +1,5 @@
-import Layout from './layout/Layout'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Layout from './layout/Layout'
 import SignUp from './pages/SignUp'
 import SignIn from './pages/SingIn'
 import Cart from './pages/Cart'
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
       { path: 'ProductPage', element: <ProductPage /> },
       { path: 'SignUp', element: <SignUp /> },
       { path: 'SignIn', element: <SignIn /> },
-      { path: 'Cart', element: <Cart headline="Cart" colorClassName="bg-indigo-100" /> },
+      { path: 'Cart', element: <Cart headline="Cart" /> },
     ],
   },
 ])
