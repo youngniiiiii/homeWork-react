@@ -1,5 +1,10 @@
-function ButtonClick(label) {
-  return <button type="submit">{label}</button>
+function ButtonClick({ label, layout, size }) {
+  // console.log(props)
+  return (
+    <button type="submit" className={`bg-[#103059] text-white rounded-md ${size}`}>
+      {label}
+    </button>
+  )
 }
 
 export default ButtonClick

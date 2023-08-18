@@ -1,5 +1,9 @@
 # React 2주차 과제
 
-- [피그마링크](https://www.figma.com/file/CDSQtjO7hygL08Le5heTYD/%EC%95%84%ED%86%A0%EB%AF%B9-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8?type=design&node-id=0%3A1&mode=dev)
+Router를 이용하여 SPA를 구현하였습니다.  
+제작 페이지는 로그인(signIn) 페이지 입니다.
+Home 화면 nav에서 -> SignIn 페이지로 이동해 주세요.
 
-![피그마](이미지경로)
+<!-- 테일윈드 설치, 절대 경로 설정 -->
+
+![ex](./src/assets/signIn.png)
