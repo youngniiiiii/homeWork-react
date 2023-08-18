@@ -1,4 +1,4 @@
-function Container({ headline, colorClassName, children }) {
+function Cart({ headline, colorClassName, children }) {
   return (
     <section className={`h-screen ${colorClassName} p-5`}>
       <h2>{headline}</h2>
@@ -6,4 +6,4 @@ function Container({ headline, colorClassName, children }) {
     </section>
   )
 }
-export default Container
+export default Cart

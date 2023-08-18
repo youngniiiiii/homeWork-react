@@ -8,14 +8,17 @@ function Header() {
         <Link className="text-xs" to="/">
           Home
         </Link>
+        <Link className="text-xs" to="/ProductPage">
+          Product Page
+        </Link>
         <Link className="text-xs" to="/SignUp">
           SignUp
         </Link>
         <Link className="text-xs" to="/SignIn">
           SignIn
         </Link>
-        <Link className="text-xs" to="/container">
-          Container
+        <Link className="text-xs" to="/Cart">
+          Cart
         </Link>
       </div>
     </header>
