@@ -8,6 +8,9 @@ function Header() {
         <Link className="text-xs" to="/">
           Home
         </Link>
+        <Link className="text-xs" to="/Products">
+          Products
+        </Link>
         <Link className="text-xs" to="/ProductPage">
           Product Page
         </Link>

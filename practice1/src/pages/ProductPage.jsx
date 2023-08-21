@@ -70,8 +70,8 @@ function ProductPage() {
           gap: 8,
         }}
       >
-        <Switcher on={isDarkMode} label="다크 모드" onClick={handleToggleDarkMode} />
-        <Switcher on={isReducedMotion} onText="on" offText="off" label="리듀스 모션" onClick={handleToggleReducedMotion} />
+        {/* <Switcher on={isDarkMode} label="다크 모드" onClick={handleToggleDarkMode} /> */}
+        {/* <Switcher on={isReducedMotion} onText="on" offText="off" label="리듀스 모션" onClick={handleToggleReducedMotion} /> */}
         {/* <Switcher on={isReady} label="아 U 레디?" onClick={handleToggleReady} /> */}
       </div>
     </section>
