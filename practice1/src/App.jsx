@@ -6,6 +6,7 @@ import Cart from './pages/Cart'
 import Home from './pages/Home'
 import ProductPage from './pages/ProductPage'
 import Products from './pages/Products'
+import ProductEdit from './pages/ProductEdit'
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: 'Products', element: <Products /> },
+      { path: 'product/edit/:productId', element: <ProductEdit /> },
       { path: 'ProductPage', element: <ProductPage /> },
       { path: 'SignUp', element: <SignUp /> },
       { path: 'SignIn', element: <SignIn /> },

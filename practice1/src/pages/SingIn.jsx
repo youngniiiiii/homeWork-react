@@ -1,5 +1,5 @@
 import logo from '@/assets/logo2.png'
-import ButtonClick from '@/Component/ButtonClick'
+import ButtonClick from '@/Components/ButtonClick'
 import { useId } from 'react'
 function SignIn() {
   const inputId = useId()

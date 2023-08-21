@@ -1,7 +1,7 @@
-import '@/Component/ButtonClick.css'
-import { Button, Checkbox, SubmitButton, KarlyClick } from '@/Component/Test'
+import '@/Components/ButtonClick.css'
+import { Button, Checkbox, SubmitButton, KarlyClick } from '@/Components/Test'
 import { useState } from 'react'
-import Switcher from './Switch'
+// import Switcher from './Switch'
 
 function ProductPage() {
   //[상태,set상태]
@@ -25,23 +25,23 @@ function ProductPage() {
   }
   //
 
-  // 다크 모드 상태 관리
-  const [isDarkMode, setIsDarkMode] = useState(false)
-  const handleToggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode)
-  }
+  // // 다크 모드 상태 관리
+  // const [isDarkMode, setIsDarkMode] = useState(false)
+  // const handleToggleDarkMode = () => {
+  //   setIsDarkMode(!isDarkMode)
+  // }
 
-  // 리듀스 모션 상태 관리
-  const [isReducedMotion, setIsReducedMotion] = useState(false)
-  const handleToggleReducedMotion = () => {
-    setIsReducedMotion(!isReducedMotion)
-  }
+  // // 리듀스 모션 상태 관리
+  // const [isReducedMotion, setIsReducedMotion] = useState(false)
+  // const handleToggleReducedMotion = () => {
+  //   setIsReducedMotion(!isReducedMotion)
+  // }
 
-  // 아 유 레디 상태 관리
-  const [isReady, setIsReady] = useState(true)
-  const handleToggleReady = () => {
-    setIsReady(!isReady)
-  }
+  // // 아 유 레디 상태 관리
+  // const [isReady, setIsReady] = useState(true)
+  // const handleToggleReady = () => {
+  //   setIsReady(!isReady)
+  // }
 
   //
 
