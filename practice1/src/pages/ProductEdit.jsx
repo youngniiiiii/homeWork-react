@@ -48,7 +48,7 @@ function ProductEdit() {
           {/* title */}
           <div>
             <label htmlFor={titleId}>타이틀</label>
-            <input type="text" name="title" id={titleId} value={formState.title} onChange={handleChangeInput} />
+            <input type="text" name="title" id={titleId} defaultValue={formState.title} onChange={handleChangeInput} />
           </div>
           {/* color */}
           {/* price */}
