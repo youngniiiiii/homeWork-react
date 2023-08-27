@@ -8,15 +8,12 @@ function Header() {
       </h1>
 
       <div className="flex gap-4 text-sm ">
-        <Link className="text-xs" to="/Products">
-          Products
+        <Link className="text-xs" to="/SignIn">
+          SignIn
         </Link>
 
         <Link className="text-xs" to="/SignUp">
           SignUp
-        </Link>
-        <Link className="text-xs" to="/SignIn">
-          SignIn
         </Link>
       </div>
     </header>

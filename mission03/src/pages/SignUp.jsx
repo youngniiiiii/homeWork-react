@@ -1,6 +1,5 @@
 import pb from '@/api/pocketbase'
 import { useRef } from 'react'
-// import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 
@@ -11,19 +10,9 @@ function SignUp() {
   const inputEmail = useRef()
   const inpuPass = useRef()
   const inputPassConfirm = useRef()
-  // const [formState, setFormState] = useState({
-  //   name: '',
-  //   userid: '',
-  //   email: '',
-  //   password: '',
-  //   passwordConfirm: '',
-  // })
 
   const handleRegister = async () => {
-    // e.preventDefault()
     console.log(userid.current.value)
-
-    // const { password, passwordConfirm } = formState
 
     if (inpuPass.current.value !== inputPassConfirm.current.value) {
       alert('비밀번호가 일치하지 않습니다. 다시 확인해보세요.')
@@ -42,15 +31,6 @@ function SignUp() {
 
     navigate('/')
   }
-
-  // const handleInput = (e) => {
-  //   const { name, value } = e.target
-  //   console.log(e.target)
-  //   // setFormState({
-  //   //   ...formState,
-  //   //   [name]: value,
-  //   // })
-  // }
 
   return (
     <section className="h-screen p-5 flex flex-col items-center my-28">
