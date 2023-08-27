@@ -40,7 +40,7 @@ function SignIn() {
       <img src={logo} alt="로고" className="w-[150px] mt-[30px]" />
       <form onSubmit={handleSignIn} className="flex flex-col mt-16 mb-10">
         <label htmlFor={inputId}></label>
-        <input type="email" name="email" id={inputId} placeholder="아이디" value={formState.email} onChange={handleInput} className="px-4 mb-8 w-[280px] h-[44px] rounded-md border border-black" />
+        <input type="email" name="email" id={inputId} placeholder="이메일" value={formState.email} onChange={handleInput} className="px-4 mb-8 w-[280px] h-[44px] rounded-md border border-black" />
 
         <label htmlFor={inputPw}></label>
         <input type="password" id={inputPw} name="password" value={formState.password} onChange={handleInput} placeholder="비밀번호" className="px-4 h-[44px] rounded-md border border-black" />
